@@ -2,3 +2,57 @@
     margin: 0%;
     padding: 0%;
 }
+
+header{
+    background-color: blue;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+main{
+    background-color: yellow;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-main{
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+}
+
+.card{
+    background-color: blue;
+    color: wheat;
+    margin: 20px;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-group{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+}
+
+.col{
+    border: solid 3px blue;
+    border-radius: 4px;
+    margin: 4px;
+    background-color: darkred;
+    color: white;
+}
+
+
